@@ -9,19 +9,42 @@
 function countChars(userString) {
   //your code here
   //don't forget to return the number of characters (use return!)
+
+    userString = userString.length;
+    return userString;
 }
 
 //==============================================================================
 // #2 - String Methods: addHashtag
 //==============================================================================
 //Given a string, add " #yolo" to the end of that string
+function addHashtag(userString) {
+
+  userString = userString.concat(" #yolo");
+  return userString;
+
+}
 
 //==============================================================================
 
 //==============================================================================
 // #2 - String Methods: excitedTweet
+
+function excitedTweet(userString) {
+
+  userString = userString.toUpperCase() + "!!!";
+  return userString;
+ 
+}
+
+// //userString.toUpperCase() + "!!!";
+
+// change this to
+
+// userString = userString.toUpperCase() + "!!!"
+// return userString
 //==============================================================================
-//Given a string, add " #yolo" to the end of that string
+//upcases a user's string and adds three exclamation points
 
 //==============================================================================
 
